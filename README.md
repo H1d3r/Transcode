@@ -1,5 +1,5 @@
 # Transcode
-　　python2.x---transcode ，解决python2.x编码报错问题，适用于网页编码、文件编码、系统编码、python编码的转换;使用于windows以及linux，对于windows下编码问题有良好的解决。
+python2.x---transcode ，解决python2.x编码报错问题，适用于网页编码、文件编码、系统编码、python编码的转换；适用于windows以及linux，对于windows下编码问题有良好的解决。
 
 ### Install
 ```bash
@@ -46,5 +46,5 @@ print type(body)
 print body
 ```
 
-#### Instructions
+### Instructions
 　　进过convert函数的内容，都会转为话unicode格式，这与python2.x解决编码问题的思路是一致的。此模块应该在一切外部内容传递到python程序时进行使用，将外部字符串转化为统一的unicode编码，而在输出结果时，python内部已经有良好的机制，可以将unicode转化为相应操作系统类型的编码格式（linux为utf-8，windows为gbk)。对于中文unicode写入文件问题，transcode模块也给予了解决，只要导入此模块，便可以正常将unicode中文字符串转为相应操作系统类型的编码格式写入文件。
