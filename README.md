@@ -7,6 +7,9 @@ git clone https://github.com/subscription/Transcode
 
 python setup.py install 
 ```
+依赖：
+chardet
+安装：pip install chardet
 
 ### Usage
 

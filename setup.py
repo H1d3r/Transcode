@@ -4,7 +4,7 @@ setup(
        version = "0.10" ,
        description = "this is transcode" ,
        packages = ['transcode'],
-       package_dir={'transcode':'../transcode'},
+       package_dir={'transcode':'../Transcode'},
       
 
 )
